@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тестовое таблица пользователей">
+  <meta name="author" content="Дарья Шипилова">
+  <title>Users Table</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <h1 class="header__title">Список пользователей</h1>
+    </header>
+    <main class="content">
+      <section class="search">
+        <div class="search__input-wrapper">
+          <input class="search__input" type="text" placeholder="Поиск по имени или e-mail">
+        </div>
+        <div class="search__clean">
+          <div class="search__icon"></div>
+          <p class="search__text">Очистить фильтр</p>
+        </div>
+      </section>
+      <section class="elements">
+        <div class="filter">
+          <p class="filter__header">Сортировка:</p>
+          <button type="button" class="filter__button filter__button_registration" value="Дата регистрации">Дата регистрации</button>
+          <button type="button" class="filter__button filter__button_rating filter__button" value="Рейтинг">Рейтинг</button>
+        </div>
+        <ul class="elements__list">
+          <li class="elements__item elements__item_headers">
+            <p class="elements__header">Имя пользователя</p>
+            <p class="elements__header">E-mail</p>
+            <p class="elements__header">Дата регистрации</p>
+            <p class="elements__header">Рейтинг</p>
+            <div class="elements__none"></div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <div class="popup">
+      <div class="popup__content">
+        <form class="popup__container" novalidate>
+          <h2 class="popup__heading">Вы уверены, что хотите удалить пользователя?</h2>
+          <div class="popup__wrapper">
+            <button type="submit" class="popup__button" value="Да">Да</button>
+            <button type="button" class="popup__button popup__button_close popup__button_active" value="Нет">Нет</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2023 Дарья Шипилова</p>
+    </footer>
+  </div>
+  <template id="item-template">
+    <li class="elements__item elements__item_search">
+      <p class="elements__username"></p>
+      <p class="elements__text elements__email"></p>
+      <p class="elements__text elements__date"></p>
+      <p class="elements__text elements__rating"></p>
+      <div class="elements__cancel"></div>
+    </li>
+  </template>
+</body>
+</html>

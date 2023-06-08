@@ -1,0 +1,9 @@
+.elements__header {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #9eaab4;
+  margin: 0;
+  max-width: 92px;
+  width: 100%;
+}

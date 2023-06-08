@@ -1,0 +1,7 @@
+.elements__list {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 15px 0 0;
+  padding: 0 16px 16px;
+}

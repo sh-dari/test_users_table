@@ -1,0 +1,4 @@
+.filter__button_active {
+  color: #333;
+  border-bottom: 1px dashed #333;
+}

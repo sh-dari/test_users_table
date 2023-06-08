@@ -1,0 +1,9 @@
+.search__icon {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../../images/clean.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+}

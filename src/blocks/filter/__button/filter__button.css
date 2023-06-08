@@ -1,0 +1,16 @@
+.filter__button {
+  background-color: transparent;
+  border: none;
+  color: #9eaab4;
+  border-bottom: 1px dashed #9eaab4;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  padding: 0;
+  transition: opacity .1s ease-out;
+}
+
+.filter__button:hover {
+  opacity: .6;
+  cursor: pointer;
+}

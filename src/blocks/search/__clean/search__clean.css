@@ -1,0 +1,10 @@
+.search__clean {
+  display: flex;
+  column-gap: 4px;
+  transition: opacity .1s ease-out;
+}
+
+.search__clean:hover {
+  opacity: .6;
+  cursor: pointer;
+}

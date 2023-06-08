@@ -1,0 +1,16 @@
+.elements__cancel {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../../images/cancel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  transition: opacity .1s ease-out;
+}
+
+.elements__cancel:hover {
+  opacity: .6;
+  cursor: pointer;
+}

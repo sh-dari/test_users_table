@@ -1,0 +1,11 @@
+.search__input {
+  background-color: #eceff0;
+  border: none;
+  border-radius: 4px;
+  padding: 9px 0 9px 31px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9eaab4;
+  width: 100%;
+}
